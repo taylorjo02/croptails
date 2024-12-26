@@ -46,7 +46,7 @@ func _on_next_transitions() -> void:
 
 
 func _on_enter() -> void:
-	player = get_parent().get_node("/root/TestSceneHouseTilemap/Player")
+	player = get_parent().get_node("/root/TestSceneTilemap/Player")
 
 
 func _on_exit() -> void:

@@ -19,7 +19,7 @@ func _on_next_transitions() -> void:
 
 func _on_enter() -> void:
 
-	player = get_parent().get_node("/root/TestSceneHouseTilemap/Player")
+	player = get_parent().get_node("/root/TestSceneTilemap/Player")
 
 	if player != null:
 		if player.player_direction == Vector2.UP:
