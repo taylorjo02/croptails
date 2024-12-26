@@ -1,8 +1,9 @@
-[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://duwwlg8oes10x"]
+[gd_resource type="TileSet" load_steps=9 format=3 uid="uid://duwwlg8oes10x"]
 
 [ext_resource type="Texture2D" uid="uid://dgp1e4383j0gd" path="res://assets/game/tilesets/water.png" id="1_bhtfu"]
 [ext_resource type="Texture2D" uid="uid://es2laiyqq0rf" path="res://assets/game/tilesets/grass.png" id="2_gm7cg"]
 [ext_resource type="Texture2D" uid="uid://b2dogodh8wssb" path="res://assets/game/tilesets/tilled_dirt_wide.png" id="3_lqvf5"]
+[ext_resource type="PackedScene" uid="uid://4lwywsufy4lr" path="res://scenes/houses/large_house.tscn" id="4_0c75n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x4vi5"]
 texture = ExtResource("1_bhtfu")
@@ -443,6 +444,9 @@ texture = ExtResource("3_lqvf5")
 1:2/0/terrains_peering_bit/top_side = 1
 1:2/0/terrains_peering_bit/top_right_corner = 1
 
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_i6dei"]
+scenes/1/scene = ExtResource("4_0c75n")
+
 [resource]
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Grass Terrain"
@@ -452,3 +456,4 @@ terrain_set_0/terrain_1/color = Color(0.738887, 0.261912, 0.121724, 1)
 sources/0 = SubResource("TileSetAtlasSource_x4vi5")
 sources/1 = SubResource("TileSetAtlasSource_ouo6o")
 sources/2 = SubResource("TileSetAtlasSource_xc6on")
+sources/3 = SubResource("TileSetScenesCollectionSource_i6dei")

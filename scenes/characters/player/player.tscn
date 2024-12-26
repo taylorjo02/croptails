@@ -397,6 +397,7 @@ animations = [{
 radius = 9.0
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 2
 script = ExtResource("1_kvd48")
 current_tool = 1
 
@@ -407,7 +408,8 @@ animation = &"watering_right"
 autoplay = "idle_front"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -8)
+position = Vector2(-1, -6)
+scale = Vector2(0.52, 0.56)
 shape = SubResource("CircleShape2D_05fb6")
 
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_node_state")]

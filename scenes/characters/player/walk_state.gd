@@ -41,7 +41,7 @@ func _on_enter() -> void:
     print("Entering walk state")
     var parent = get_parent()
     print("Parent node: ", parent)
-    player = parent.get_parent().get_node("/root/TestSceneTilemap/Player")
+    player = parent.get_parent().get_node("/root/TestSceneHouseTilemap/Player")
     if player == null:
         print("Player is null in _on_enter")
     else:
