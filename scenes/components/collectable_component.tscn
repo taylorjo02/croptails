@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://2p14r0k2y7h2"]
+
+[ext_resource type="Script" path="res://scenes/components/collectable_component.gd" id="1_gogm1"]
+
+[node name="CollectableComponent" type="Area2D"]
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("1_gogm1")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
