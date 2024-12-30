@@ -180,7 +180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_vr83n")
 }],
-"loop": false,
+"loop": true,
 "name": &"chopping_back",
 "speed": 3.0
 }, {
@@ -408,7 +408,7 @@ current_tool = 1
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-1, -8)
 sprite_frames = SubResource("SpriteFrames_txyuy")
-animation = &"chopping_back"
+animation = &"watering_right"
 autoplay = "idle_front"
 frame = 1
 frame_progress = 1.0
