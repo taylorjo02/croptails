@@ -69,6 +69,7 @@ hit={
 2d_physics/layer_1="ground"
 2d_navigation/layer_1="chicken_navigation"
 2d_physics/layer_2="player"
+2d_navigation/layer_2="cow_navigation"
 2d_physics/layer_3="interactable"
 2d_physics/layer_4="tool"
 2d_physics/layer_5="objects"
