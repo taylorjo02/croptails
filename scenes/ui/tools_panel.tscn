@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://cs47p1jcb78vt"]
+
+[ext_resource type="Theme" uid="uid://2m3k8wo2ukpn" path="res://scenes/ui/game_ui_theme.tres" id="1_ut2xn"]
+
+[node name="ToolsPanel" type="PanelContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("1_ut2xn")
+theme_type_variation = &"DarkWoodPanel"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="ToolAxe" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"ToolButton"
